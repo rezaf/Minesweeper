@@ -1,0 +1,652 @@
+--- !ruby/object:Minesweeper
+board: !ruby/object:Board
+  board:
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 0
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 1
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 2
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 3
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 4
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 5
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 6
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 7
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 0
+      - 8
+      neighbombs: 1
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 0
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 1
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 2
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 3
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 4
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 5
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 6
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 1
+      - 8
+      neighbombs: 1
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 0
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 1
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 2
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: true
+      flagged: false
+      pos:
+      - 2
+      - 3
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: true
+      flagged: false
+      pos:
+      - 2
+      - 4
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 5
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 6
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 7
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 2
+      - 8
+      neighbombs: 1
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 0
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 1
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 2
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 3
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 4
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 5
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 6
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 3
+      - 8
+      neighbombs: 0
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 0
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 1
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 2
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 3
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 4
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 5
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 6
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 4
+      - 8
+      neighbombs: 0
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 0
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 1
+      neighbombs: 2
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 2
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 3
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 4
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 5
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 6
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 5
+      - 8
+      neighbombs: 0
+  - - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 0
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 1
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 2
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 3
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 4
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 5
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 6
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 6
+      - 8
+      neighbombs: 0
+  - - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 0
+      neighbombs: 3
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 1
+      neighbombs: 3
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 2
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 3
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 4
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 5
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 6
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 7
+      - 8
+      neighbombs: 0
+  - - !ruby/object:Tile
+      bombed: true
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 0
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 1
+      neighbombs: 1
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 2
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 3
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 4
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 5
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 6
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 7
+      neighbombs: 0
+    - !ruby/object:Tile
+      bombed: false
+      revealed: false
+      flagged: false
+      pos:
+      - 8
+      - 8
+      neighbombs: 0
+  bomb_num: 8
